@@ -11,7 +11,9 @@
 
  🐾 Marca:
 
- LOGO-MARCA DO PROJETO: ![image](https://github.com/user-attachments/assets/a01f5422-a62d-4047-be6c-5c04ba0a9f7e)!
+ LOGO-MARCA DO PROJETO:
+ 
+ ![image](https://github.com/user-attachments/assets/a01f5422-a62d-4047-be6c-5c04ba0a9f7e)!
 
  ## 🎯 Objetivos
 
