@@ -33,6 +33,7 @@ h1{
 
 h2{
     color: #07263c;
+    font-size: 15px;
 }
 
 h3{
@@ -267,5 +268,70 @@ header .icones {
     .search-box:hover .search-box-input {
         width: 360px;
     }
+}
+
+.pai{
+    /* posicionamento no pai */
+    display: flex;  
+    margin: 10px;
+}
+
+#pai1{
+    /* alinhamento no eixo x */
+    justify-content: space-around;
+    /* alinhamento no eixo y */
+    align-items: center;
+    /* start (left) - esquerda */
+    /* end (right) - direita */
+    /* center - centro */
+    /* space-between - joga os elementos na lateral */
+    /* space-around - joga os elementos na lateral com espaço */
+}
+
+
+
+.filho{
+    width: 200px;
+    height: 200px;
 
 }
+
+.f1{
+    
+    text-align: center;
+
+}
+
+.f2{
+   
+    text-align: center;
+    
+}
+.f3{
+   
+    text-align: center;
+  
+}
+.filho img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;  /* Remove qualquer margem abaixo da imagem */
+}
+
+
+
+.img-box{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+   
+    
+}
+
+footer{
+    background-color: var(--primary-color);
+}
+
+
+
+
