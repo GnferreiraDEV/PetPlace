@@ -1,0 +1,271 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+:root{
+    --primary-color: #07263c;
+    --secondary-color: white;
+    --white: black;
+}
+
+#top{
+    background-color: var(--primary-color);
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header, footer{
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 20px 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h1{
+    padding: 25px;
+}
+
+h2{
+    color: #07263c;
+}
+
+h3{
+    padding-left: 25px;
+}
+
+.categoria-bar ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+
+
+.categoria-bar ul li {
+    margin: 0 15px; 
+}
+
+
+.categoria-bar ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 15px;
+    padding: 3px 8px; 
+    border-radius: 3px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.categoria-bar ul li a:hover {
+    background-color: var(--white); 
+}
+
+
+@media (max-width: 600px) {
+    .categoria-bar ul {
+        flex-direction: column; 
+    }
+
+    .categoria-bar ul li {
+        margin: 10px 0;
+    }
+}
+
+
+#menu {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 0;
+    min-height: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+.meu-carrossel-container {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto; /* Centraliza o carrossel na página */
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .meu-carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .meu-carrossel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .meu-carrossel img {
+    width: 100%;
+    display: block;
+  }
+  
+  .meu-carrossel-anterior,
+  .meu-carrossel-proximo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+  
+  .meu-carrossel-anterior {
+    left: 10px;
+  }
+  
+  .meu-carrossel-proximo {
+    right: 10px;
+  }
+  
+  .meu-carrossel-anterior:hover,
+  .meu-carrossel-proximo:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+
+#logo{
+    display: flex;
+    gap: 20px;
+}
+   
+#logo img{
+    width: 110px;
+}
+
+a{
+    color: black;
+}
+
+header .icones {
+    display: flex;  
+   justify-content: center;
+   gap: 10px;
+   padding: 9px;
+   
+}
+
+.icones img {
+    width: 20px;  /* Define o tamanho dos ícones */
+   
+}
+
+
+
+
+
+
+
+
+.box-busca{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background-color: #ffffff;
+}
+
+
+.search-box-input::placeholder {
+    
+    color:#ffffff;
+    opacity: 0.6;
+
+}
+
+
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+
+
+.search-box-input::-moz-placeholder { color: #ffffff; }
+
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+
+
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    background-color: #4c4c4c;
+    height: 45px;
+
+}
+
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 200px;
+
+}
+
+.search-box-input {
+
+    outline: 0;
+    font-size: 1.2em;
+    color: #fff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+
+}
+
+.search-box-button {
+
+   display: flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: var(--primary-color);
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+
+}
+
+.search-box-button:active  {
+
+    transform: scale(.85);
+
+}
+
+.search-box-icone {
+
+    margin: auto;
+    color: #fff;
+
+}
+
+
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+
+}

@@ -3,11 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pet Place</title>
 </head>
 <body>
 
-    EM CONSTRUÇÃO!!
+    
+
+    <header>
+        <div id="logo">
+
+            <img src="image/logo.jpg" alt="LOGO SITE">
+
+            <h2>PET PLACE</h2>
+    
+        </div>
+            <div class="box-busca">
+
+                <div class="search-box">
+                    
+                    <form method="post" action="#">
+        
+                        <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                        <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+                    
+                    </form>
+                    
+                </div><!-- Search -->
+            
+            </div><!--Box Busca-->
+            
+
+        </div>
+
+        <div class="icones">
+            <img src="image/icons/batepapo.svg" alt="BATE PAPO">
+       
+        
+        <div class="icones">
+            <img src="image/icons/coração.svg" alt="FAVORITO">
+       
+        
+        <div class="icones">
+            <img src="image/icons/carrinho.svg" alt="CARRINHO">
+        </div>
+        
+
+       
+
+    </header> 
+
+    <div class="categoria-bar">
+        <ul>
+            <li><a href="#">Cachorro</a></li>
+            <li><a href="#">Gato</a></li>
+            <li><a href="#">Aves</a></li>
+            <li><a href="#">Roedores</a></li>
+            <li><a href="#">Plano Pet</a></li>
+            <li><a href="#">Oferta</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Pré-Venda</a></li>
+        </ul>
+    </div>
+
+    <div class="meu-carrossel-container">
+        <div class="meu-carrossel">
+          <div class="meu-carrossel-item"> 
+            <img src="image/carrossel1.jpg" alt="Imagem carrossel 1">
+          </div>
+          <div class="meu-carrossel-item">
+            <img src="image/carrossel2.jpg" alt="Imagem carrossel 2 2">
+          </div>
+          <div class="meu-carrossel-item">
+            <img src="image/carrossel3.jpg" alt="imagem carrosel 3">
+          </div>
+        </div>
+        <button class="meu-carrossel-anterior" onclick="mostrarSlideAnterior()">&#10094;</button>
+        <button class="meu-carrossel-proximo" onclick="mostrarSlideProximo()">&#10095;</button>
+      </div>
+
+
+        <footer>TODOS OS DIREITOS RESERVADOS</footer>
+
+        <script src="script/script.js"></script>
     
 </body>
 </html>
