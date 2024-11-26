@@ -291,8 +291,8 @@ header .icones {
 
 
 .filho{
-    width: 200px;
-    height: 200px;
+    width: 150PX;
+
 
 }
 
@@ -313,20 +313,13 @@ header .icones {
   
 }
 .filho img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+
     margin-bottom: 0;  /* Remove qualquer margem abaixo da imagem */
 }
 
 
 
-.img-box{
-    width: 200px;
-    height: 200px;
-    margin-bottom: 0;
-   
-    
-}
 
 footer{
     background-color: var(--primary-color);
