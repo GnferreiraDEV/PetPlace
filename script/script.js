@@ -61,9 +61,9 @@ function carregarCatalogo(){
           <img src="${livros[i].imagem}" alt="Produto ${i + 1}" class="livro-img">
           <h4>${livros[i].titulo}</h4>
           <p class="subtitulo">${livros[i].subtitulo}</p> <!-- Aqui està o subtítulo -->
-          <button>
-              Adicionar
-              <img src="icons/plus.svg" alt="">
+          <button class="adicionar">
+          Adicionar
+    
           </button>
       </div>
       `;
