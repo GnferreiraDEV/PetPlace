@@ -346,6 +346,7 @@ header .icones {
     border-radius: 10px;
     text-align: center;
     border: 2px black solid;
+    justify-content: space-between; 
 }
 
 .livro-img {
@@ -363,11 +364,12 @@ header .icones {
     transform: scale(1.5);
 }
 
-button {
+button.adicionar {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: auto;
+    
 }
 
 .card {
@@ -423,6 +425,8 @@ button {
     color: #555;
    
 }
+
+
 
 
 .produto-carrossel {

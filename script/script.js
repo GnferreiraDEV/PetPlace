@@ -25,51 +25,59 @@ function mostrarSlideAnterior() {
 }
 
 
-function carregarCatalogo(){
-    
+function carregarCatalogo() {
   const livros = [
       { 
         imagem: 'image/produtos/antipulgas.jpg', 
         titulo: 'Antipulgas e Carrapatos Zoetis Revolution 6% para Gatos de 2,5 a 7,5 kg - 45 mg', 
-        subtitulo: 'R$ 34,90 à Vista'
+        subtitulo: 'R$ 34,90 à Vista',
+        link: 'catalogo.html' // Substitua pelo link real
       },
       { 
         imagem: 'image/produtos/areia.jpg', 
         titulo: 'Areia Higiênica Meau Biodegradável Grãos Médios para Gatos', 
-        subtitulo: 'R$ 55,90 à Vista'
+        subtitulo: 'R$ 55,90 à Vista',
+        link: 'detalhes-produto2.html' // Substitua pelo link real
       },
       { 
         imagem: 'image/produtos/racaopet.jpg', 
         titulo: 'Ração Seca Nutrilus Pro Carne para Cães Adultos', 
-        subtitulo: 'R$ 178,90 à Vista'
+        subtitulo: 'R$ 178,90 à Vista',
+        link: 'detalhes-produto3.html' // Substitua pelo link real
       },
       { 
         imagem: 'image/produtos/racaoumida.jpg', 
         titulo: 'Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas', 
-        subtitulo: 'R$ 5,90 à Vista'
+        subtitulo: 'R$ 5,90 à Vista',
+        link: 'detalhes-produto4.html' // Substitua pelo link real
       },
       { 
         imagem: 'image/produtos/tapete.jpg', 
         titulo: 'Tapete Higiênico Papum Slim Lavanda para Cães de Porte Pequeno', 
-        subtitulo: 'R$ 42,90 à Vista'
+        subtitulo: 'R$ 42,90 à Vista',
+        link: 'detalhes-produto5.html' // Substitua pelo link real
       },
   ];
 
   for (let i = 0; i < livros.length; i++) {
       document.getElementById('catalogo').innerHTML += `
       <div class="livro">
-          <img src="${livros[i].imagem}" alt="Produto ${i + 1}" class="livro-img">
+          <a href="${livros[i].link}">
+              <img src="${livros[i].imagem}" alt="Produto ${i + 1}" class="livro-img">
+          </a>
           <h4>${livros[i].titulo}</h4>
-          <p class="subtitulo">${livros[i].subtitulo}</p> <!-- Aqui està o subtítulo -->
-          <button class="adicionar">
-          Adicionar
-    
-          </button>
+          <p class="subtitulo">${livros[i].subtitulo}</p> <!-- Aqui está o subtítulo -->
+          <a href="${livros[i].link}">
+              <button class="adicionar">
+              Ver Detalhes
+              </button>
+          </a>
       </div>
       `;
   }
 }
 carregarCatalogo();
+
 
 
 function carregarProdutos() {
@@ -78,6 +86,7 @@ function carregarProdutos() {
         imagem: 'image/CACHORRO/racao1.jpg', 
         titulo: 'Ração Seca True para Cães Adultos Raças Pequenas', 
         subtitulo: 'R$ 134,90 à Vista'
+       
       },
       { 
         imagem: 'image/CACHORRO/tapete.jpg', 
