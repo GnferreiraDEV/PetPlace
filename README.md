@@ -8,8 +8,6 @@
 
 ## 👥 Colaboradores
 
-- Victor Castro
-- Gabriel Morais
 - Gustavo Nascimento
 
  🐾 Marca:
