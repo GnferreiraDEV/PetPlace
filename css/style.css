@@ -46,6 +46,10 @@ h3{
     color: #07263c;
 }
 
+h5{
+    color: var(--primary-color);
+}
+
 .categoria-bar ul {
     list-style-type: none; 
     display: flex;

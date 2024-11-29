@@ -28,7 +28,7 @@ function mostrarSlideAnterior() {
 function carregarCatalogo() {
   const livros = [
       { 
-        imagem: 'image/produtos/antipulgas.jpg', 
+        imagem: 'image/produtos/remedio2.jpg', 
         titulo: 'Antipulgas e Carrapatos Zoetis Revolution 6% para Gatos de 2,5 a 7,5 kg - 45 mg', 
         subtitulo: 'R$ 34,90 à Vista',
         link: 'catalogo.html' // Substitua pelo link real
