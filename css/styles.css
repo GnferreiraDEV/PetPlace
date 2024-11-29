@@ -53,6 +53,7 @@ h4{
 
 h5{
   color: var(--primary-color);
+  padding: 15PX;
 }
 .categoria-bar ul {
     list-style-type: none; 
@@ -272,8 +273,13 @@ header .icones {
   
 
   .product-images {
-    display: flex;                         
+    display: flex;  
+                           
                    
+  }
+
+  .product-images img{
+    width: 550px;
   }
   
   .product-images h1{
@@ -315,7 +321,7 @@ header .icones {
   }
   
   .buy-button:hover {
-    background-color: #218838;      
+    background-color: #045a77;      
   }
   
   .product-imagess {
@@ -347,6 +353,137 @@ header .icones {
     cursor: pointer;
     background-color: white;
   }
+
+
+  .produto-carrossel {
+    position: relative;
+    width: 80%; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.lista-produtos {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.produto-item {
+    flex: 0 0 auto; 
+    width: 30%; 
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.produto-item img {
+    width: 40%; 
+    margin-bottom: 10px;
+}
+
+
+button.adicionar {
+    display: flex;
+    align-items: center;         
+    justify-content: center;      
+    margin-top: auto; 
+    background-color: #07263c;
+    color: white;
+    width: 100%;                 
+    padding: 12px; 
+    font-size: 16px;
+    text-align: center;           
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+button.adicionar img {
+    margin-left: 8px;            
+}
+
+button.adicionar:hover {
+    background-color: #045a77;   
+    transition: background-color 0.3s;
+}
+
+
+
+.btnAnterior {
+    left: 10px;
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50PX;
+}
+
+.btnProximo {
+    right: 10px;
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10;
+    border-radius: 50PX;
+}
+
+
+.containerrr {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.containerrr h2 {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.descricao ul {
+  list-style-type: disc;
+  margin: 10px 20px;
+  padding: 0;
+  color: #555;
+}
+
+.especificacoes table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.especificacoes table th,
+.especificacoes table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.especificacoes table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.especificacoes table td {
+  background-color: #fff;
+  color: #555;
+}
+
   
   footer {
     background-color: var(--primary-color);

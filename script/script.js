@@ -95,7 +95,7 @@ function carregarProdutos() {
       },
       { 
         imagem: 'image/CACHORRO/macaco.jpg', 
-        titulo: 'Brinquedo Chalesco Pelúcia Macaco', 
+        titulo: 'Brinquedo Chalesco Pelúcia Macaco Fofíssimo', 
         subtitulo: 'R$ 38,90 à Vista'
       },
       { 

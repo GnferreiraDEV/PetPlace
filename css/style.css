@@ -48,6 +48,7 @@ h3{
 
 h5{
     color: var(--primary-color);
+
 }
 
 .categoria-bar ul {
@@ -498,6 +499,7 @@ button.adicionar:hover {
     cursor: pointer;
     transform: translateY(-50%);
     z-index: 10;
+    border-radius: 50px;
 }
 
 .btnProximo {
@@ -511,6 +513,7 @@ button.adicionar:hover {
     cursor: pointer;
     transform: translateY(-50%);
     z-index: 10;
+    border-radius: 50px;
 }
 
 
