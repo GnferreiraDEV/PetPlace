@@ -105,7 +105,7 @@ function carregarProdutos() {
       },
       { 
         imagem: 'image/CACHORRO/comida.jpg', 
-        titulo: 'Comedouro e Bebedouro Meau Duplo Inox', 
+        titulo: 'Comedouro e Bebedouro Meau Duplo Inox CÃO E GATO', 
         subtitulo: 'R$ 22,90 à Vista'
       },
       { 
