@@ -1,12 +1,13 @@
 # PetPlace
  Projeto documentado SENAI-DF
 
+
+ <IMG src="image/HOME.PNG.jpg">
+
 # Projeto PetPlace
 
 ## 👥 Colaboradores
 
-- Victor Castro
-- Gabriel Morais
 - Gustavo Nascimento
 
  🐾 Marca:
